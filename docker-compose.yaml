@@ -1,0 +1,11 @@
+services:
+  minipaint:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SANITY=true
+#    volumes:
+#      - .:/app/
+    ports:
+      - "8081:80"

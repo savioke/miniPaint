@@ -56,3 +56,7 @@ MIT License
 
 ## Support
 Please use the GitHub issues for support, features, issues or use mail www.viliusl@gmail.com for contacts.
+
+## Run locally using docker compose
+
+Run `make` or type `docker compose up` assuming you have docker and docker compose plugin installed.
