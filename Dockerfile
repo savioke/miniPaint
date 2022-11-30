@@ -5,6 +5,8 @@ WORKDIR /app
 
 # Copy everything in to /app
 COPY . .
+RUN rm -rf /app/node_modules
+RUN npm install
 RUN npm run build
 
 
